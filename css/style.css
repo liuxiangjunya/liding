@@ -1,0 +1,399 @@
+body,ul,li,ol,a,p,h1,h2,h3,h4,h5,h6,img,span,strong,dl,dt,dd{
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+h1,h2,h3,h4,h5,h6{
+		font-weight: normal;
+}
+em,i{
+	font-style: normal;
+}
+img{
+	vertical-align: middle;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+body{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	background: url('../images/1.png') no-repeat;
+	background-size: 100%;
+}
+/********************top区域开始********************/
+.header{
+	height: 125px;
+	line-height: 125px;
+}
+.header h1{
+	float: left;
+	background: url('../images/logo.png') no-repeat;
+	/*text-indent: -9999px;*/
+	/*隐藏文字开始*/
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	/*隐藏文字结束*/
+	width: 279px;
+	height: 66px;
+	margin-top: 30px;
+	margin-right: 158px;
+}
+.header nav ul,.header nav ul li{
+	float: left;
+}
+.header nav ul li a{
+	color: #23191B;
+	font-size: 14px;
+	color: #23191B;
+}
+.header nav ul li span{
+	color: #848484;
+	padding: 0 20px;
+}
+.header nav ul li a:hover,.header nav ul li a.act{
+	color: #E50012;
+}
+/********************top区域结束********************/
+/********************content区域开始********************/
+
+/********************con1区域开始********************/
+/********************con1左边区域开始********************/
+.con1{
+	margin-bottom: 17px;
+}
+.con1_z{
+	width: 307px;
+	height: 589px;
+	float: left;
+	border: 1px solid #CCCCCC;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.con1_z_sh{
+	height: 39px;
+	background-color: #0068B7;
+	line-height: 34px;
+	border-bottom: 1px solid #CCCCCC;
+	overflow: hidden;
+}
+.con1_z_sh h3,.con1_z_sh h5{
+	float: left;
+}
+.con1_z_sh h3{
+	color: #FFFFFF;
+	font-size: 16px;
+	padding-top: 1px;
+	background: url('../images/shi.png') no-repeat 9px;
+	padding-left: 35px;
+}
+.con1_z_sh h5{
+	color: #DEDEDE;
+	margin-top: 7px;
+	padding-left: 8px;
+}
+.con1_z .con1_z_xia{
+	height: 549px;
+	background: #FFFFFF;
+}
+.con1_z .con1_z_xia ul .xian{
+	border-bottom: 1px dashed #8C8C8C;
+	width: 273px;
+	margin-left: 2px;
+	padding-left: 31px;
+	line-height: 42px;
+	color: #0067B7;
+	font-size: 14px;
+	background: url('../images/xiaoyuan.png') no-repeat 14px;
+}
+.con1_z .con1_z_xia ul .hg{
+	line-height: 30px;
+	margin-left: 32px;
+	color: #272727;
+}
+.li_mt{
+	margin-top: 6px;
+}
+.li_mb{
+	margin-bottom: 9px;
+}
+.img{
+	height: 10px;
+}
+.img_z{
+	width: 310px;
+	margin-top: 1px;
+	margin-left: -1px;
+	background: url('../images/c1zuo.png');
+}
+/********************con1左边区域结束********************/
+/********************con1右边区域开始********************/
+.con1_y{
+	float: left;
+	margin-left: 29px;
+}
+.con1_y .banner{
+	width: 662px;
+	height: 380px;
+	background: url('../images/banner.png');
+	margin-bottom: 23px;
+}
+.con1_x{
+	width: 660px;
+	height: 184px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border: 1px solid #CCCCCC;
+}
+.con1_z_sh1{
+	background-color: #FDFDFD;
+}
+.con1_z_sh1 .h3{
+	color: #141414;
+}
+.con1_z_sh1 .h5{
+	color: #656565;
+}
+.con1_z_sh1 a{
+	float: right;
+	line-height: 39px;
+	color: #656565;
+	margin-right: 3px;
+}
+.zi{
+	margin-top: 9px;
+}
+.zi img{
+	float: right;
+	margin-top: 9px;
+	margin-right: 6px;
+}
+.zi p{
+	margin-left: 9px;
+	text-indent: 2em;
+	line-height: 30px;
+}
+.img_y{
+	width: 662px;
+	background: url('../images/c1you.png');
+}
+/********************con1右边区域结束********************/
+/********************con1区域结束********************/
+/********************con2区域开始********************/
+.con2{
+	overflow: hidden;
+}
+.con22{
+	height: 155px;
+	margin-top: 17px;
+	background: url('../images/con2.png');
+	margin-bottom: 21px;
+}
+/********************con2区域结束********************/
+/********************con3区域开始********************/
+/********************con3左边区域开始********************/
+.con3_z{
+	width: 307px;
+	float: left;
+	margin-right: 29px;
+	border: 1px solid #CCCCCC;
+}
+.con3_z_y{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.con3_z .con3_z1{
+	width: 307px;
+	background: url('../images/jianbian.png') repeat-x;
+}
+.con3_z .lunbo ul{
+	width: 299px;
+	height: 287px;
+	float: left;
+	margin-top: 21px;
+	overflow: hidden;
+	position: relative;
+	left: 0; top: 0;
+}
+.con3_z .lunbo ul li{
+	float: left;
+}
+.con3_z .lunbo ul .con3_li{
+	width: 205px;
+	height: 287px;
+}
+.con3_li1{
+	margin-left: 46px;
+}
+
+.lunbo ul .xiao{
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	background-color: #D7D7D7;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 27px;
+	font-size: 20px;
+	position: absolute;
+	top: 0;
+	right: 0px;
+}
+.lunbo ul .dw1{
+	position: absolute;
+	top: 142px;
+	left: 15px;
+}
+.lunbo ul .dw2{
+	position: absolute;
+	top: 142px;
+	right: 15px;
+}
+.img3_z{
+	width: 310px;
+	background: url('../images/con4zuo.png');
+}
+/********************con3左边区域结束********************/
+/********************con3右边区域开始********************/
+.con3_y{
+	width: 660px;
+	float: left;
+	border: 1px solid #CCCCCC;
+}
+.con3_y .con3_z2{
+	width: 660px;
+	background: url('../images/jianbian.png') repeat-x;
+}
+.tuwen{
+	margin-top: 14px;
+}
+.tuwen img{
+	float: left;
+	margin-right: 19px;
+	margin-left: 9px;
+}
+.tuyou{
+	float: left;
+}
+.tuyou_sh ul{
+	width: 339px;
+	height: 38px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.tuyou ul li{
+	float: left;
+	margin-right: 24px;
+}
+.tuyou ul li a{
+	width: 77px;
+	height: 37px;
+	text-align: center;
+	line-height: 37px;
+	color: #141414;
+	font-size: 14px;
+}
+.ml{
+	margin-left: 17px;
+}
+.tuyou ul li a:hover{
+	border: 1px solid #CCCCCC;
+	color: #0067B7;
+}
+.tuyou ul li:hover,.tuyou ul li a:hover{
+	border-bottom: none;
+}
+.tuyou_xia ol{
+	margin-top: 10px;
+	width: 349px;
+}
+.tuyou_xia ol li{
+	line-height: 32px;
+	color: #656565;
+	text-align: right;
+	background: url('../images/xiaofang.png') no-repeat left center;
+	padding-left: 10px;
+}
+.tuyou_xia ol li a{
+	color: #272727;
+	float: left;
+}
+/********************con3右边区域结束********************/
+/********************con3区域结束********************/
+/********************con4区域开始********************/
+.con4{
+	border: 1px solid #cccccc;
+}
+.c4{
+	margin-top: 19px;
+}
+.con4_xia{
+	height: 239px;
+	background: url('../images/con4背景.png') no-repeat right bottom;
+}
+.con4_xia .ppp{
+	width: 592px;
+	text-indent: 2em;
+	margin-left: 9px;
+	margin-top: 7px;
+	line-height: 30px;
+	margin-bottom: 13px;
+}
+.ted {
+	margin-left: 9px;
+}
+.ted h4{
+	color: #0067B7;
+	font-size: 14px;
+	width: 589px;
+	line-height: 30px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-left: 1px;
+}
+.con4_xia .ted .h4_x{
+	width: 424px;
+	line-height: 30px;
+}
+.img4{
+	background: url('../images/con4xia.png');
+}
+.border{
+	border-top: 1px solid #CCC;
+	margin-top: 48px;
+	height: 132px;
+}
+.bor-xia .bor-zuo{
+	margin-top: 16px;
+	width: 240px;float: left;
+}
+
+.bor-xia .bor-zuo a{
+	color: #272727;
+}
+.bor-xia .bor-zuo span{
+	margin-left: 21px;
+	margin-right: 20px;
+}
+.bor-xia .bor-you{
+	margin-top: 16px;
+	float: right;
+	background: url('../images/BORDER-4.png') no-repeat right center;
+}
+.bor-xia .bor-you a{
+	margin-right: 78px;
+	color: #272727;
+}
+/********************con4区域结束********************/
+/********************content区域结束********************/
+.gwidth{
+	width: 1000px;
+	margin: 0 auto;
+}
